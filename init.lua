@@ -23,8 +23,5 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
-vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true})
-vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true})
-
 require "lazy_setup"
 require "polish"
