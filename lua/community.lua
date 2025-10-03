@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.cs-omnisharp" },
+  { import = "astrocommunity.pack.cpp" },
   -- import/override with your plugins folder
 }
