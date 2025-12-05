@@ -15,7 +15,6 @@ return {
             return cmp.select_and_accept()
           end
         end,
-        "snippet_forward",
         "fallback",
       },
       ["<S-Tab>"] = { "snippet_backward", "fallback" },
@@ -29,6 +28,14 @@ return {
       ["<C-f>"] = { "scroll_documentation_down", "fallback" },
 
       ["<C-k>"] = { "show_signature", "hide_signature", "fallback" },
+    },
+    completion = {
+      list = {
+        selection = {
+          preselect = true,
+          auto_insert = true,
+        },
+      },
     },
   },
 }
